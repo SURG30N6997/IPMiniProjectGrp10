@@ -1,0 +1,81 @@
+/* src/Components/Transactions/Transactions.css */
+
+/* General Page Styling */
+.transactions-page,
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Transaction Card Styling */
+.transaction-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-left-width: 5px !important;
+    margin: 10px 0;
+    border-radius: 8px; /* Slightly round the corners */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+    background-color: #ffffff; /* White background for cards */
+    max-width: 600px; /* Keep card narrow and centered */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transaction-card:hover {
+    transform: translateY(-5px); /* Slightly lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem; /* Increased title font size */
+    color: #343a40; /* Set title color to a darker shade */
+}
+
+.card-text {
+    font-size: 1.1rem; /* Slightly increase font size */
+    color: #343a40; /* Set text color to a darker shade */
+}
+
+/* Specific Styling for Income and Expense Cards */
+.income-card {
+    background-color: #e6f4ea; /* Light green background for income */
+    border-left: 5px solid #28a745; /* Green border for income */
+}
+
+.expense-card {
+    background-color: #f8d7da; /* Light red background for expenses */
+    border-left: 5px solid #dc3545; /* Red border for expenses */
+}
+
+/* Button Styling */
+.btn {
+    margin: 5px;
+    font-size: 1rem; /* Increase font size for buttons */
+    border-radius: 20px; /* Round buttons */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-link {
+    text-decoration: none; /* Remove underline */
+}
+
+.btn-link:hover {
+    color: #dc3545; /* Change icon color on hover */
+}
+
+/* Container Spacing */
+main.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Typography */
+h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    /* color: #007bff; Keep header color for h2  */
+}

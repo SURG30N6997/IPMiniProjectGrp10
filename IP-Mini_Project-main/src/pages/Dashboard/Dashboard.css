@@ -1,0 +1,35 @@
+/* This will ensure the background only applies when the page is in dashboard */
+body.dashboard-page-body {
+    background-image: url('https://img.freepik.com/free-photo/stacks-coins-arranged-bar-graph_35913-2518.jpg?t=st=1729018097~exp=1729021697~hmac=93f05fae97a97629b0912ce336c3557cb8090a563858b8c33efa802a8e695462&w=996');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-page {
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+.dashboard-page .track-expense-title {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 3rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dashboard-page .card-transparent {
+    background: rgba(240, 245, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

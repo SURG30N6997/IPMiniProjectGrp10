@@ -1,0 +1,52 @@
+.analytics-page {
+    background-color: #f3f4f6; /* Light background for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #007bff, #5a67d8); /* Gradient for headers */
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.badge {
+    font-size: 1.2rem;
+    padding: 10px;
+    background: linear-gradient(135deg, #007bff, #5a67d8); /* Consistent badge design */
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card {
+    height: 400px; /* Consistent height for most charts */
+    background-color: white; /* White background for cards */
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.row.mb-3.text-center {
+    background-color: #e9ecef; /* Slightly darker background for row */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+}
